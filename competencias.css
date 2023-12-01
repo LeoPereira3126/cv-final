@@ -1,0 +1,87 @@
+body {
+  background-color: #57442B;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.pie {
+  height: 148px;
+  border-radius: 0 0 40px 40px;
+  background: #F0DABD;
+}
+
+.header {
+  height: 133px;
+  text-align: left;
+  font-size: x-large;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #A38051;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #A38051;
+  color: black;
+}
+
+.datos {
+  text-align: center;
+  font-size: larger;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #A38051;
+}
+
+.footer {
+  height: 210px;
+  border-radius: 40px 40px 0 0;
+  background: #F0DABD;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  font-style: initial;
+  font-stretch: expanded;
+  font-size: x-large;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 600px) {
+  .pie, .header, .datos, .footer {
+      border-radius: 0; 
+  }
+
+  .topnav a {
+      padding: 8px;
+  }
+
+  .header {
+      font-size: large;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .topnav a {
+      padding: 10px;
+  }
+}

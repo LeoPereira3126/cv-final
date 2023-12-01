@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C.V Leonel Pereira</title>
+  <link rel="stylesheet" href="experiencia.css">
+  <style id="estiloUsuario"></style>
+  <style>
+    /* Estilos adicionales para los botones */
+    .topnav {
+      position: relative;
+    }
+
+    .botones-tamano {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+
+    .botones-tamano button {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Leonel Pereira</h1>
+  </div>
+  
+  <div class="topnav">
+    <a href="indexprueba.html">Home</a>
+    <a href="estudios.html">Estudios</a>
+    <a href="competencias.html">Competencias</a>
+    <a href="https://www.instagram.com/pnda.0/" target="_blank">Instagram</a>
+    <a href="juego.html" target="_blank">Adivinanza</a>
+
+    <!-- Botonera para cambiar el tamaño del texto -->
+    <div class="botones-tamano">
+      <button onclick="aumentarTexto()">Aumentar Texto</button>
+      <button onclick="disminuirTexto()">Disminuir Texto</button>
+    </div>
+  </div>
+
+  <div class="datos">
+    <p>Personal de seguridad en Ideal Protection: Diciembre 2019 a Marzo 2021</p>
+  </div>
+
+  <div class="footer">
+    <h1>Teléfono:<a href="https://wa.me/5491156221466/?text=urlencodedtext" target="_blank"> 1156221466</a></h1>
+    <a href="mailto:Pereiraleonel3126@gmail.com" target="_blank"><h2>Email: Pereiraleonel3126@gmail.com</h2></a>
+    <h3>Lomas de Zamora, 1832 A.M.B.A</h3>
+  </div>
+
+  <script>
+    function aumentarTexto() {
+      document.documentElement.style.fontSize = 'larger';
+    }
+
+    function disminuirTexto() {
+      document.documentElement.style.fontSize = 'smaller';
+    }
+  </script>
+</body>
+</html>
